@@ -11,11 +11,8 @@ import Services from '../routes/services';
 
 const App = () => (
 	<div id="app" >
-		<Header />
 		<Router className="container container-fluid">
 			<Home path="/" />
-			<Profile path="/profile/" user="me" />
-			<Services path="/services" />
 		</Router>
 		<Footer />
 	</div>

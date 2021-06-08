@@ -8,7 +8,7 @@ $reel-tan: #e8e5daff;
 .hero_image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/backgrounds/boat_background_image.png");
+    url("/assets/backgrounds/fullscreen.png");
   /* Set a specific height */
   height: 50%;
   /* Position and center the image to scale nicely on all screens */
@@ -33,14 +33,14 @@ $reel-tan: #e8e5daff;
       rgba(0, 0, 0, 0) 80%,
       $reel-teal 100%
     ),
-    url("/assets/backgrounds/boat_background_image.jpeg");
+    url("/assets/backgrounds/fullscreen.png");
 }
 .banner_mobile {
   width: 100%;
   padding: 0;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   z-index: 50;
-  background-color: #0054ff;
+  background-color: linear-gradient(243deg, #0e131d, #000000 30.65%);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,5 +52,5 @@ $reel-tan: #e8e5daff;
       rgba(0, 0, 0, 0) 80%,
       $reel-teal 100%
     ),
-    url("/assets/backgrounds/boat_background_image.jpeg");
+    url("/assets/backgrounds/mobile.jpg");
 }

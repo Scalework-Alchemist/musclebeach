@@ -4,6 +4,7 @@ import { Container, Row, Col, CardColumns } from 'react-bootstrap';
 import { useState, useEffect } from 'preact/hooks'
 import ShopCard from '../../components/shopCard';
 import Canvas from '../../components/canvas';
+import Hero from '../../components/hero';
 const baseImageUrl = "/assets"
 
 
@@ -52,18 +53,9 @@ function Home() {
 	}, [page]);
 
 	return (
-		<Container>
-			<Row>
-				<Col>
-					<h1> Welcome to the muscle Factory</h1>
-				</Col>
-			</Row>
-			<Row>
-				<Col>
-					<Canvas />
-				</Col>
-			</Row>
-
+		<Container fluid>
+			<Hero id="hero-section"/>
+			
 			{isLoading && <Canvas />}
 			{!isLoading &&
 				<Fragment>

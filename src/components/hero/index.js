@@ -22,23 +22,23 @@ const Hero = ({ CTA }) => {
 							<div class="col-lg col-md d-none d-lg-block text-center ">
 								<div className="text-left">
 									<h1 className="text-reel-blue text-capitalize font-weight-bold">
-										YOUR REEL DEAL
+										Welcome to the
 										<br />
-										IS OUT THERE
+										Armory
 									</h1>
 									<p class="text-white mt-2 font-weight-bold font-sm">
-										Call us and find out the real worth of your boat before the next purchase
+										We have wares if you have coin
 									</p>
-									<Button id="TAGLINE" className="btn-standard">Contact</Button>
 								</div>
 							</div>
 							<div class="col-sm pt-2 d-lg-none d-sm-block text-center">
 								<div class="justify-content-center">
-									<h1 className="text-reel-blue text-capitalize font-weight-bold">YOUR REEL DEAL<br />IS OUT THERE</h1>
+									<h1 className="text-reel-blue text-capitalize font-weight-bold">Welcome to the
+										<br />
+										Armory</h1>
 									<p class="text-white mt-2 font-weight-bold font-sm">
-										Call us and find out the real worth of your boat before the next purchase
+										We have wares if you have coin
 									</p>
-									<Button id="TAGLINE" className="btn-standard">Contact</Button>
 								</div>
 							</div>
 						</Row>
