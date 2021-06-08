@@ -1,0 +1,23 @@
+$jeef-blue: #131f48;
+$reel-teal: #142c16;
+$reel-blue: #0088dbff;
+$reel-nations-blue: #648de5ff;
+$reel-blue-yonder: #9eb7e5ff;
+$reel-tan: #e8e5daff;
+.services {
+  background-color: $reel-tan;
+  background: $reel-tan;
+  background: linear-gradient(355deg, $reel-blue 0%, $reel-teal 100%);
+}
+.card_body {
+  color: white;
+}
+.btn_green {
+  background-color: #131f48 !important;
+}
+
+.card_wrapper {
+  background-color: rgba(0, 135, 219, 0);
+  margin-bottom: 0.5rem !important;
+  margin-top: 0.5rem !important;
+}

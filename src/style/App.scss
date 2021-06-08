@@ -1,0 +1,118 @@
+@import "colors";
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 1%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: $miamiBlue;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.miamiWave {
+  animation-name: color_change;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes color_change {
+  0% {
+    color: $miamiBlue;
+  }
+  33% {
+    color: $miamiPink;
+  }
+  66% {
+    color: $miamiAlto;
+  }
+  100% {
+    color: $miamiWhite;
+  }
+}
+@-moz-keyframes color_change {
+  0% {
+    color: $miamiBlue;
+  }
+  33% {
+    color: $miamiPink;
+  }
+  66% {
+    color: $miamiAlto;
+  }
+  100% {
+    color: $miamiWhite;
+  }
+}
+@-ms-keyframes color_change {
+  0% {
+    color: $miamiBlue;
+  }
+  33% {
+    color: $miamiPink;
+  }
+  66% {
+    color: $miamiAlto;
+  }
+  100% {
+    color: $miamiWhite;
+  }
+}
+@-o-keyframes color_change {
+  0% {
+    color: $miamiBlue;
+  }
+  33% {
+    color: $miamiPink;
+  }
+  66% {
+    color: $miamiAlto;
+  }
+  100% {
+    color: $miamiWhite;
+  }
+}
+@keyframes color_change {
+  0% {
+    color: $miamiBlue;
+  }
+  33% {
+    color: $miamiPink;
+  }
+  66% {
+    color: $miamiAlto;
+  }
+  100% {
+    color: $miamiWhite;
+  }
+}

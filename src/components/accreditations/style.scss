@@ -1,0 +1,18 @@
+@import "src/style/colors";
+.accreditations_section {
+  padding-bottom: 1.5rem !important;
+  padding-top: 1.5rem !important;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    $miamiBlue 0%,
+    $miamiPink 100%
+  );
+}
+.accreditations_body {
+  background: linear-gradient(
+    to bottom,
+    $miamiBlue 0%,
+    $miamiPink 100%
+  );
+}

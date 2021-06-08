@@ -1,0 +1,79 @@
+$jeef-blue: #131f48;
+$reel-teal: #142c16;
+$reel-blue: #0088dbff;
+$reel-nations-blue: #648de5ff;
+$reel-blue-yonder: #9eb7e5ff;
+$reel-tan: #e8e5daff;
+/* The hero image */
+.hero_image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/backgrounds/boat_background_image.png");
+  /* Set a specific height */
+  height: 50%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.outOfWater_desktop {
+  width: 100%;
+  padding: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 50;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  --contentWidth: 100%;
+  padding: 15rem calc((100% - var(--contentWidth)) / 2);
+  background-image: 
+    url("/assets/images/outofwaterinspection.png");
+}
+.outOfWater_mobile {
+  width: 100%;
+  padding: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 50;
+  background-color: #0054ff;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  --contentWidth: 100%;
+  padding: 15rem calc((100% - var(--contentWidth)) / 2);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 80%,
+      $reel-teal 100%
+    ),
+    url("/assets/images/outofwaterinspection.png");
+}
+// seatrails
+.seaTrials_desktop {
+	width: 100%;
+	padding: 0;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	z-index: 50;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	--contentWidth: 100%;
+	padding: 15rem calc((100% - var(--contentWidth)) / 2);
+	background-image: url("/assets/images/roostertails.png");
+  }
+  .seaTrials_mobile {
+	width: 100%;
+	padding: 0;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	z-index: 50;
+	background-color: #0054ff;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	--contentWidth: 100%;
+	padding: 15rem calc((100% - var(--contentWidth)) / 2);
+	background-image: url("/assets/images/roostertails.png");
+  }
